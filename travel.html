@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+
+	<title></title>
+
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="includes/css/styles.css">
+
+	<link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+	<div class="container" id="main">
+
+		<div class="navbar navbar-fixed-top">
+
+			<div class="container">
+
+				<button class="navbar-toggle"  data-toggle="collapse" data-target=".navbar-responsive-collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a href="travel.html" class="navbar-brand" ><img src="images/logo.png" alt="your logo"></a>
+
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li >
+							<a href="travel.html">Home</a>
+						</li>
+
+						<li>
+							<a href='about.html'>About</a>
+						</li>
+
+						<li>
+							<a href='#'>Services</a>
+						</li>
+
+
+						<li>
+							<a href='#'>Contact Us</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown">
+
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+								</li>
+
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+								</li>
+
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+								</li>
+
+								<li class="divider"></li>
+
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+
+				</div>
+
+
+			</div> 
+
+
+
+		</div>
+
+		<br><br><br>
+
+		<div class="row" id="featuresheading">
+			<div class="col-12">
+				<h3 id="category"><center>Choose Category<small> <br>Find and book your ideal trip at the lowest prices</small></center></h3>
+			</div>
+		</div>
+
+		<div class="row" id="features">
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="pannel-title">Flight Ticket</h3>
+
+					</div>
+					<center><img src="images/plane.jpg" alt="plane" class="img-circle" id="imagefeature"></center>
+
+
+					<button type="button" class="btn btn-warning btn-block" data-toggle="modal" data-target="#book">Book Flight Ticket</button>
+
+				</div>
+			</div>
+
+
+
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="pannel-title">Train Ticket</h3>
+
+
+					</div> 
+					<center><img src="images/train.jpg" alt="plane" class="img-circle" id="imagefeature"></center>
+
+
+
+					<button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#book">Book Train Ticket</button>
+
+
+				</div>
+			</div>
+
+
+
+
+			<div class="col-sm-4 features">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="pannel-title">Bus Ticket</h3>
+
+
+					</div> 
+					<center><img src="images/bus.jpg" alt="plane" class="img-circle" id="imagefeature"></center>
+
+					<button type="button" class="btn btn-danger btn-block" data-toggle="modal" data-target="#book">Book Bus Ticket</button>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="jumbotron">
+			<h2 id="jumboheadS"><center>WHAT MAKES US UNIQUE</center></h2> 
+			<hr>
+			<p class="lead"><center>Nurtured from the seed of a single great idea - to empower the traveller -Moveza went on to pioneer the entire online travel industry in India. Moveza has revolutionised the travel industry over the years.</center></p> 
+		</div> 
+
+		<div class="modal fade" id="book" >
+			<div class="row" >
+				<div class="col-sm-4">
+				</div>
+				<div class="col-sm-4">
+
+
+					<div class="modal-dailog">
+
+						<div class="modal-content">
+							<div class="modal-header">
+								<button class="close" data-dismiss="modal">&times</button>
+								<h4 class="modal-title">Enter Details</h4>
+							</div>
+
+							<div class="model-body">
+
+								<center>
+									<br>
+									<br>
+
+									<input class="form-control" id="Input" placeholder="Name" type="text">
+									<br>
+									<input class="form-control" id="Input" placeholder="Email" type="Email">
+									<br>
+									<input class="form-control pull-left" id="Input1" placeholder="From" type="text">
+									<input class="form-control pull-right" id="Input1" placeholder="To" type="text">
+									<br>
+									<br>
+								</center>
+								<br>
+								<input type="submit" class="btn btn-info pull-right" value="Submit" id="submit">
+								<br>
+								<br>
+							</div>
+
+
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+		<div class="row" id="moreInfo">
+			<div class="col-sm-6 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<br>
+						<h3 class=panel-title><span class="glyphicon glyphicon-map-marker"></span>Your Location</h3>
+						<br>
+					</div>
+					<iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waikiki+beach&amp;aq=&amp;sll=19.896766,-155.582782&amp;sspn=8.711424,11.854248&amp;ie=UTF8&amp;hq=&amp;hnear=Waikiki+Beach,+Honolulu,+Hawaii,+United+States&amp;t=m&amp;ll=21.277298,-157.8265&amp;spn=0.015996,0.036478&amp;z=14&amp;output=embed"></iframe>
+					<br>
+					<br>
+					<form class="navbar-form ">
+						<input type="text" class="form-control" placeholder="Enter Location..." id="searchInput">
+						<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+					</form>
+
+				</div>
+			</div>
+
+			<div class="col-sm-6 feature" id="panel2">
+				<div class="panel userpanel" >
+					<div class="panel-heading">
+						<div class="panel-title">
+							<h3>Moveza Offers<small>Gift Your Family Fantastic Trip Season<br></small></h3>
+						</div>
+					</div>
+
+					<div class="col-sm-12 feature">
+						<a href="#" ><img src="images/offer1.jpg" alt="offer" width="100%"></a>
+						<br>
+						<br>
+						<br>
+						<br>
+					</div>
+
+
+					<h4 id=offer_heading><br><br><b>Book your Europe Summer Holiday 2017 with Moveza.com and choose one of the below offers:</b></h4>
+					<br>
+					<br>
+
+					<ul>
+						<li><p>Get an iPhone7 FREE</p></li> 
+						<li><p>Get a 100% FREE trip to Dubai or Thailand.</p></li>
+
+
+						<li><p>Get 25% OFF on companion tour cost.</p></li> 
+
+						<li><p>Get a value pack worth Rs.25,000 per person FREE.</p></li> 
+
+					</ul>
+					<br>
+					<br>
+				</div>
+
+			</div>
+
+
+		</div>
+
+
+	</div>
+
+
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<h6>Copyright &copy; 2016  {Moveza.com}</h6>
+				</div>
+
+
+
+				<div class="col-sm-3">
+					<h6>Policy Info</h6>
+					<ul id="social">
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Report Abuse & Takedown Policy</a></li>
+						<li><a href="#">CSR Policy</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+
+
+				<div class="col-sm-2">
+					<h6>Navigation</h6>
+					<ul id="social">
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Links</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-2">
+					<h6>Follow Us <h6>
+						<ul id="social">
+							<li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</a></li>
+
+							<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i>Google Plus</a></li>
+
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a></li>
+						</ul>
+					</div>
+
+					<div class="col-sm-2">
+						<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Prasanna</h6>
+
+					</div>
+
+
+				</footer>
+
+				<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+
+				<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+			</body>
+			</html>
+

@@ -1,0 +1,139 @@
+
+.navbar-fixed-top
+{
+   background-color: white;
+}
+
+
+#searchInput {
+   width: 200px;
+}
+.jumbotron
+{
+   background-color: lightpink;
+   opacity: 0.5;
+
+}
+h3
+{
+   color:black;
+}
+
+
+#featuresheading
+{
+   margin-bottom: 30px;
+}
+
+#imagefeature
+{
+
+   margin-bottom: 30px;
+}
+
+.pannel-title
+{
+   color:black;
+   text-align: center;
+}
+
+#features
+{
+   margin-bottom: 30px;
+}
+
+.glyphicon-map-marker
+{
+   color:blue;
+   margin-right: 10px;
+}
+
+
+
+
+#offers
+{
+
+   margin-left: 20px;
+
+}
+
+footer
+{
+
+   color:white;
+   background-color:black;
+
+}
+
+.fa
+{
+   margin-right: 5px;
+
+
+}
+
+#social
+{
+
+   list-style: none;
+   padding: 0;
+}
+
+.navbar-brand {
+   padding: 13px 15px;
+}
+
+#jumboheadS
+{
+   color:blue;
+}
+
+body
+{
+   color: white;
+   background-image: url("../../images/bg.jpg");
+}
+.panel
+{
+   color:black;
+}
+
+small
+{
+   margin-left: 6px;
+}
+#category
+{
+   color:white;
+}
+
+#Input  
+{
+   width:400px;
+}
+
+#book
+{
+   margin-top:160px;
+   margin-left: 15px;
+   color:black;
+}
+
+#submit
+{
+   margin-right: 12px;
+}
+#Input1
+{
+
+   margin-right: 12px;
+   width:175px;
+   margin-left: 12px;
+}
+
+
+.userpanel
+{
+   height:689px;
+}
