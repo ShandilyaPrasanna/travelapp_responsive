@@ -1,51 +1,53 @@
 
+
 .navbar-fixed-top
 {
-   background-color: white;
+	background-color: white;
 }
 
 
 #searchInput {
-   width: 200px;
+	width: 200px;
 }
 .jumbotron
 {
-   background-color: lightpink;
-   opacity: 0.5;
+	background-color: lightpink;
+	opacity: 0.5;
+
 
 }
 h3
 {
-   color:black;
+	color:black;
 }
 
 
 #featuresheading
 {
-   margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 #imagefeature
 {
 
-   margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .pannel-title
 {
-   color:black;
-   text-align: center;
+	color:black;
+	text-align: center;
 }
 
 #features
 {
-   margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .glyphicon-map-marker
 {
-   color:blue;
-   margin-right: 10px;
+	color:blue;
+	margin-right: 10px;
 }
 
 
@@ -54,21 +56,21 @@ h3
 #offers
 {
 
-   margin-left: 20px;
+	margin-left: 20px;
 
 }
 
 footer
 {
 
-   color:white;
-   background-color:black;
+	color:white;
+	background-color:black;
 
 }
 
 .fa
 {
-   margin-right: 5px;
+	margin-right: 5px;
 
 
 }
@@ -76,64 +78,67 @@ footer
 #social
 {
 
-   list-style: none;
-   padding: 0;
+	list-style: none;
+	padding: 0;
 }
 
 .navbar-brand {
-   padding: 13px 15px;
+	padding: 13px 15px;
 }
 
 #jumboheadS
 {
-   color:blue;
+	color:blue;
+	font-family: 'Wendy One', serif;
+	font-size: 50px;
+	text-align: center
 }
 
 body
 {
-   color: white;
-   background-image: url("../../images/bg.jpg");
+	color: white;
+	background-image: url("../../images/bg.jpg");
 }
 .panel
 {
-   color:black;
+	color:black;
 }
 
 small
 {
-   margin-left: 6px;
+	margin-left: 6px;
 }
 #category
 {
-   color:white;
+	color:white;
 }
 
 #Input  
 {
-   width:400px;
+	width:94%;
 }
 
 #book
 {
-   margin-top:160px;
-   margin-left: 15px;
-   color:black;
+	margin-top:160px;
+	margin-left: 15px;
+	color:black;
 }
 
 #submit
 {
-   margin-right: 12px;
+	margin-right: 12px;
 }
 #Input1
 {
 
-   margin-right: 12px;
-   width:175px;
-   margin-left: 12px;
+	margin-right: 12px;
+	width:40%;
+	margin-left: 12px;
 }
 
 
 .userpanel
 {
-   height:689px;
+	height:647px;
 }
